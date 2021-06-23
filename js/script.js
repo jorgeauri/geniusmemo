@@ -62,7 +62,7 @@ let click = (color) => {
 
 //retorna a cor
 let createColorElement = (color) => {
-  if(color == 0) {
+  /* if(color == 0) {
     return green;
   } else if(color == 1) {
     return red;
@@ -70,6 +70,20 @@ let createColorElement = (color) => {
     return yellow;
   } else if (color == 3) {
     return blue;
+  } */
+  switch (color) {
+    case 0:
+      return green;      
+      break;
+    case 1:
+      return red;
+      break
+    case 2:
+      return yellow;
+      break  
+    default:
+      return blue;
+      break;
   }
 }
 

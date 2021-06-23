@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(208, 255, 239);
+  background-color: darkgrey;
 }
 
 .main-game {
@@ -17,7 +17,7 @@ body {
   'amarelo azul';
   grid-gap: 10px;
   border: 1px solid #ffffff;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 100%;
   width: 700px;
   height: 700px;
@@ -48,5 +48,5 @@ body {
 }
 
 .selected {
-  opacity: 0.7;
+  opacity: 0.65;
 }
